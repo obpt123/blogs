@@ -1,0 +1,4 @@
+docker run -it --name teamcity-server-instance -v  /xxxxxx/data:/data/teamcity_server/datadir -v /xxxxxxx/logs:/opt/teamcity/logs -p 8111:8111 jetbrains/teamcity-server
+View on Docker Hub
+
+docker run -it -e SERVER_URL="http://10.0.75.1.:8111" -v /e/teamcitydata/agent2:/data/teamcity_agent/conf  jetbrains/teamcity-agent
